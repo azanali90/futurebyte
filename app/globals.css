@@ -1,0 +1,8 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+body{@apply bg-white text-slate-800 antialiased}
+a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid #1F6FEB;outline-offset:2px}
+.prose-fb h2{@apply font-display text-2xl text-navy mt-10 mb-3}
+.prose-fb h3{@apply font-display text-xl text-navy mt-6 mb-2}
+.prose-fb p{@apply leading-8 mb-4 max-w-[68ch]}
+.prose-fb ul{@apply list-disc pl-6 mb-4 space-y-1 max-w-[68ch]}
+.prose-fb a{@apply text-sky underline}
