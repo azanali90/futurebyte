@@ -1,7 +1,7 @@
 import {mk} from "./mk";
 export const ONLINE_ARTICLES=[
 mk("free-online-pdf-tools-guide","Free Online PDF Tools: What They Do and When to Be Careful","online-tools",
-"Merge, split, compress and convert PDFs in your browser, and learn when it is safer to work offline.","2026-09-15","Abstract illustration of a PDF document with arrows",[
+"Merge, split, compress and convert PDFs in your browser, and learn when it is safer to work offline.","2026-09-15","Laptop, notebook and coffee on a wooden work desk",[
 {h2:"What online PDF tools can do",body:[{list:["Merge several PDFs into one","Split a large PDF into smaller files","Compress files for email","Convert between PDF and Word or image formats","Rotate pages and add page numbers"]}]},
 {h2:"Benefits",body:["They need no installation, work on any device with a browser and usually take seconds. For occasional tasks they are very convenient."]},
 {h2:"Privacy: the main risk",body:["When you use an online tool, your file is uploaded to someone else's server. Check how long files are kept and whether they are deleted automatically. For contracts, IDs, medical or financial documents, prefer software that runs on your own computer."]},
@@ -12,7 +12,7 @@ mk("free-online-pdf-tools-guide","Free Online PDF Tools: What They Do and When t
 {h2:"Good habits",body:["Remove sensitive pages before uploading, keep a copy of the original and delete the processed file from the site if it allows. See <a href='/articles/cybersecurity-basics-for-everyone'>Cybersecurity Basics</a> for general safety."]}]),
 
 mk("how-to-compress-images-for-the-web","How to Compress Images for the Web Without Losing Quality","online-tools",
-"Smaller images make pages load faster. Learn the right formats, sizes and free tools for the job.","2026-10-01","Abstract illustration of an image being compressed",[
+"Smaller images make pages load faster. Learn the right formats, sizes and free tools for the job.","2026-10-01","Person using a stylus and tablet to work on digital artwork",[
 {h2:"Why image size matters",body:["Images are often the heaviest part of a web page. Large files slow loading, frustrate visitors on mobile data and can hurt search rankings."]},
 {h2:"Choose the right format",h3:[
  {title:"JPG",body:["Best for photographs. Adjustable quality lets you trade a little detail for a much smaller file."]},
@@ -23,7 +23,7 @@ mk("how-to-compress-images-for-the-web","How to Compress Images for the Web With
 {h2:"Tips",body:["Keep your original files, compress copies, and avoid compressing the same image repeatedly because quality drops each time."]}]),
 
 mk("free-online-tools-for-remote-collaboration","Free Online Tools for Remote Collaboration","online-tools",
-"Video calls, shared documents, task boards and whiteboards: the types of free tools that help distributed teams work together.","2026-10-20","Abstract illustration of connected people and a shared board",[
+"Video calls, shared documents, task boards and whiteboards: the types of free tools that help distributed teams work together.","2026-10-20","People working together on laptops around a table",[
 {h2:"What remote teams need",body:["Working apart still requires talking, sharing files, tracking tasks and brainstorming. Most of these needs can be covered by free plans, although limits vary."]},
 {h2:"Tool types to consider",h3:[
  {title:"Video meetings",body:["Look for time limits on free calls, participant limits and options for screen sharing."]},

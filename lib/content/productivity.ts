@@ -1,7 +1,7 @@
 import {mk} from "./mk";
 export const PRODUCTIVITY_ARTICLES=[
 mk("time-blocking-guide","Time Blocking: A Practical Guide to Planning Your Day","digital-productivity",
-"Learn how to assign tasks to fixed blocks on your calendar so important work actually gets done.","2026-08-18","Abstract illustration of a calendar with colored blocks",[
+"Learn how to assign tasks to fixed blocks on your calendar so important work actually gets done.","2026-08-18","Close-up of a fountain pen writing in a notebook",[
 {h2:"What is time blocking",body:["Time blocking means dividing your day into blocks and giving each block one job. Instead of a long to-do list, your calendar shows when each task will happen."]},
 {h2:"How to start",body:[{list:["List tomorrow's tasks and estimate how long each will take.","Mark your most important task first and schedule it when your energy is highest.","Group small tasks, such as email and admin, into one block.","Add buffer time between blocks for overruns and breaks.","Review at the end of the day and adjust."]}]},
 {h2:"Tips that make it work",h3:[
@@ -11,7 +11,7 @@ mk("time-blocking-guide","Time Blocking: A Practical Guide to Planning Your Day"
 {h2:"Common mistakes",body:["Scheduling every minute, ignoring travel or transition time, and giving up after one bad day. Treat the plan as a guide that you adjust, not a rule you fail."]}]),
 
 mk("digital-declutter-guide","How to Declutter Your Digital Life","digital-productivity",
-"A weekend plan to clean up your inbox, files, apps and notifications so you can focus again.","2026-09-01","Abstract illustration of tidy folders and a clean inbox",[
+"A weekend plan to clean up your inbox, files, apps and notifications so you can focus again.","2026-09-01","Laptop and notebook on a desk beside large office windows",[
 {h2:"Why digital clutter hurts",body:["A crowded inbox, scattered files and constant notifications make it harder to find things and to concentrate. A short clean-up can give you back time every day."]},
 {h2:"A simple plan",h3:[
  {title:"Inbox",body:["Unsubscribe from newsletters you never read, create two or three folders at most, and archive everything older than a few months."]},

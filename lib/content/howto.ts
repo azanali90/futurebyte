@@ -1,7 +1,7 @@
 import {mk} from "./mk";
 export const HOWTO_ARTICLES=[
 mk("how-to-write-effective-ai-prompts","How to Write Effective AI Prompts: A Step-by-Step Guide","how-to-guides",
-"A repeatable method for getting clearer, more useful answers from AI assistants.","2026-06-30","Abstract illustration of a chat bubble with a cursor",[
+"A repeatable method for getting clearer, more useful answers from AI assistants.","2026-06-30","Laptop, notebook and coffee on a wooden work desk",[
 {h2:"What a prompt is",body:["A prompt is the instruction you give an AI tool. Clear prompts lead to clearer answers because the model has less to guess."]},
 {h2:"Step-by-step method",body:[{list:["State the goal: what do you want to produce?","Give context: who is the audience and what do they already know?","Set the format: bullet list, table, email, 200 words, and so on.","Add constraints: tone, things to avoid, or sources to use.","Provide an example of what good looks like."]}]},
 {h2:"Before and after",h3:[
@@ -11,7 +11,7 @@ mk("how-to-write-effective-ai-prompts","How to Write Effective AI Prompts: A Ste
 {h2:"Keep learning",body:["Prompting works best when you understand the tool's limits. Read <a href='/articles/ai-limitations-and-risks'>AI Hallucinations, Bias and Other Limits</a> and <a href='/articles/ai-productivity-guide'>How to Use AI to Improve Productivity</a>."]}]),
 
 mk("how-to-secure-your-online-accounts","How to Secure Your Online Accounts in 30 Minutes","how-to-guides",
-"A short checklist to protect your email, banking and social accounts with strong passwords and two-factor authentication.","2026-07-14","Abstract illustration of a padlock on a login screen",[
+"A short checklist to protect your email, banking and social accounts with strong passwords and two-factor authentication.","2026-07-14","Person holding a payment card while using a laptop",[
 {h2:"Why start with email",body:["Your email account can reset the passwords for almost everything else. Securing it first protects all your other accounts."]},
 {h2:"The 30-minute checklist",body:[{list:["Minutes 1-10: Change your email password to a long, unique passphrase.","Minutes 10-15: Turn on two-factor authentication (2FA) for email.","Minutes 15-22: Repeat for banking, shopping, social media and cloud storage.","Minutes 22-27: Save recovery codes somewhere safe and offline.","Minutes 27-30: Review which apps and devices are logged in, and remove any you do not recognise."]}]},
 {h2:"Choosing a second factor",h3:[
@@ -21,7 +21,7 @@ mk("how-to-secure-your-online-accounts","How to Secure Your Online Accounts in 3
 {h2:"Keep it up",body:["Use a <a href='/articles/password-managers-explained'>password manager</a>, watch for phishing, and learn more in <a href='/articles/cybersecurity-basics-for-everyone'>Cybersecurity Basics Everyone Should Know</a>."]}]),
 
 mk("how-to-back-up-your-files","How to Back Up Your Files: The 3-2-1 Method","how-to-guides",
-"Protect photos and documents from loss with a simple backup plan that takes less than an hour to set up.","2026-08-04","Abstract illustration of files being copied to a drive and cloud",[
+"Protect photos and documents from loss with a simple backup plan that takes less than an hour to set up.","2026-08-04","Overhead view of people working on laptops with connected drives",[
 {h2:"Why backups matter",body:["Drives fail, phones get lost and files get deleted or locked by malware. A backup is the only reliable way to recover."]},
 {h2:"The 3-2-1 rule",body:[{list:["3 copies of your important data","2 different types of storage, such as an external drive and cloud storage","1 copy kept off-site, away from your home or office"]}]},
 {h2:"Set it up step by step",h3:[
