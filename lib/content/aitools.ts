@@ -1,7 +1,7 @@
 import {mk} from "./mk";
 export const AITOOLS_ARTICLES=[
 mk("how-to-choose-ai-writing-assistant","How to Choose an AI Writing Assistant","ai-tools",
-"A simple checklist for comparing AI writing tools by quality, privacy, price and the kind of writing you do.","2026-03-10","Abstract illustration of a pen and sparkle over a document",[
+"A simple checklist for comparing AI writing tools by quality, privacy, price and the kind of writing you do.","2026-03-10","Laptop, notebook and coffee on a wooden work desk",[
 {h2:"Start with what you write",body:["A tool that is great for marketing copy may be poor for technical documentation. List your top three writing tasks before you compare anything."]},
 {h2:"What to compare",h3:[
  {title:"Output quality and tone control",body:["Test every tool with the same prompt and compare clarity, accuracy and how well it follows instructions about style and length."]},
@@ -12,7 +12,7 @@ mk("how-to-choose-ai-writing-assistant","How to Choose an AI Writing Assistant",
 {h2:"Edit before you publish",body:["Whatever tool you choose, review facts, remove generic phrasing and add your own examples. For more options, read <a href='/articles/best-free-ai-tools-2026'>Best Free AI Tools in 2026</a>."]}],{popular:true}),
 
 mk("free-ai-image-generators-guide","Free AI Image Generators: What to Compare Before You Start","ai-tools",
-"Free AI image tools differ in quality, licensing and limits. Here is what to check before you create anything you plan to publish.","2026-03-24","Abstract illustration of a picture frame with a spark",[
+"Free AI image tools differ in quality, licensing and limits. Here is what to check before you create anything you plan to publish.","2026-03-24","Person using a stylus and tablet to work on digital artwork",[
 {h2:"How AI image generators work",body:["You describe a picture in words and the tool creates an image from patterns learned in training. Results improve when your prompt names the subject, style, lighting and composition."]},
 {h2:"What to compare",body:[{list:["Daily or monthly image limits on the free plan","Resolution and whether images carry a watermark","Licence terms: can you use images commercially?","How well the tool follows detailed prompts","Whether your prompts and images are stored or shared"]}]},
 {h2:"Writing better image prompts",h3:[

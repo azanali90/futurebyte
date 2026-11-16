@@ -1,7 +1,7 @@
 import {mk} from "./mk";
 export const TECH_ARTICLES=[
 mk("what-is-cloud-computing","What Is Cloud Computing? A Beginner's Guide","technology",
-"Cloud computing explained: what it is, the main service models and why so many apps now run in the cloud.","2026-04-07","Abstract illustration of a cloud connected to devices",[
+"Cloud computing explained: what it is, the main service models and why so many apps now run in the cloud.","2026-04-07","Network cables and equipment inside server cabinets",[
 {h2:"The simple definition",body:["Cloud computing means using computing resources such as servers, storage and software over the internet instead of owning and running them yourself. You pay for what you use, much like electricity."]},
 {h2:"The three service models",h3:[
  {title:"Infrastructure as a Service (IaaS)",body:["You rent raw computing power, storage and networking and manage everything on top yourself."]},
@@ -11,7 +11,7 @@ mk("what-is-cloud-computing","What Is Cloud Computing? A Beginner's Guide","tech
 {h2:"Things to consider",body:["Cloud services depend on an internet connection, and costs can grow if usage is not monitored. Review where your data is stored and how it is protected. To protect your own cloud accounts, read <a href='/articles/how-to-secure-your-online-accounts'>How to Secure Your Online Accounts</a>."]}]),
 
 mk("how-the-internet-works","How the Internet Works: From Click to Web Page","technology",
-"Follow a single web request from your browser to a server and back, and learn what DNS, IP addresses and HTTPS do.","2026-04-21","Abstract illustration of a globe with connected lines",[
+"Follow a single web request from your browser to a server and back, and learn what DNS, IP addresses and HTTPS do.","2026-04-21","Network cables and equipment inside server cabinets",[
 {h2:"The internet is a network of networks",body:["The internet connects millions of smaller networks owned by companies, universities, governments and internet service providers (ISPs). They agree on shared rules, called protocols, so any device can talk to any other."]},
 {h2:"What happens when you open a website",body:[{list:["Your browser asks a DNS server to translate the name (such as example.com) into an IP address.","Your request travels through your ISP and several routers to the server at that address.","The server sends back the page's files: HTML, images, styles and scripts.","Your browser assembles those files into the page you see."]}]},
 {h2:"Key terms explained",h3:[
@@ -22,7 +22,7 @@ mk("how-the-internet-works","How the Internet Works: From Click to Web Page","te
 {h2:"Why it matters",body:["Knowing the basics helps you troubleshoot slow pages, understand privacy risks on public Wi-Fi and judge which sites are safe. Look for HTTPS, but remember it only means the connection is encrypted, not that the site is trustworthy."]}]),
 
 mk("cybersecurity-basics-for-everyone","Cybersecurity Basics Everyone Should Know","technology",
-"The most common online threats and the everyday habits that protect you from them.","2026-05-05","Abstract illustration of a shield with a lock",[
+"The most common online threats and the everyday habits that protect you from them.","2026-05-05","Person holding a payment card while using a laptop",[
 {h2:"Why basics matter",body:["Most attacks do not rely on advanced hacking. They trick people into giving away passwords or installing harmful software. A few good habits block most of them."]},
 {h2:"Common threats",h3:[
  {title:"Phishing",body:["Fake emails, texts or sites that imitate a trusted brand to steal logins or payment details. Check the sender and never enter passwords after clicking a surprise link."]},

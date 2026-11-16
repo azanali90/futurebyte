@@ -12,7 +12,7 @@ export const ARTICLES:Article[]=[
 {slug:"best-free-ai-tools-2026",title:"Best Free AI Tools in 2026: A Practical Starter Guide",category:"ai-tools",
  excerpt:"A category-by-category guide to free AI tools for writing, images, research and note-taking.",
  author:"FutureByte Editorial",published:"2026-01-15",updated:"2026-01-15",featured:true,popular:true,factCheck:true,
- image:"/images/best-free-ai-tools.svg",imageAlt:"Abstract illustration of AI tool icons",
+ image:"/images/photos/computer-desk.jpg",imageAlt:"People reviewing information together on a laptop screen",
  sections:[
  {h2:"How to choose a free AI tool",body:["Free plans change often. Before relying on any tool, check its current usage limits, data policy and whether your work can be used for model training.",{list:["Define the job first: writing, images, research or automation.","Read the privacy policy before uploading sensitive files.","Compare the free tier against the paid tier so you know what you give up."]}]},
  {h2:"Categories worth exploring",h3:[
@@ -23,7 +23,7 @@ export const ARTICLES:Article[]=[
 {slug:"ai-productivity-guide",title:"How to Use AI to Improve Productivity",category:"digital-productivity",
  excerpt:"Five realistic ways to use AI assistants for everyday work without losing quality or control.",
  author:"FutureByte Editorial",published:"2026-01-22",updated:"2026-01-22",featured:true,popular:false,factCheck:false,
- image:"/images/ai-productivity.svg",imageAlt:"Abstract illustration of a task checklist with a spark",
+ image:"/images/photos/laptop-typing.jpg",imageAlt:"Overhead view of people working on laptops with connected drives",
  sections:[
  {h2:"Start with repetitive tasks",body:["The best early wins are tasks you already understand well, so you can judge the output quickly.",{list:["Drafting and rewriting emails","Summarising meeting notes you provide","Turning rough outlines into structured documents","Brainstorming options before you decide"]}]},
  {h2:"Write better prompts",h3:[
