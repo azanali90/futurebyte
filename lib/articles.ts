@@ -1,4 +1,5 @@
 import {CATEGORIES} from "./site";
+import {LATEST_ARTICLES} from "./content/latest";
 import {AI_ARTICLES} from "./content/ai";import {AITOOLS_ARTICLES} from "./content/aitools";import {TECH_ARTICLES} from "./content/tech";
 import {SOFTWARE_ARTICLES} from "./content/software";import {HOWTO_ARTICLES} from "./content/howto";
 import {PRODUCTIVITY_ARTICLES} from "./content/productivity";import {ONLINE_ARTICLES} from "./content/online";
@@ -29,7 +30,7 @@ export const ARTICLES:Article[]=[
   {title:"Give context",body:["State your goal, audience and format. A prompt that says who the reader is and what you want back gets more useful results."]},
   {title:"Iterate",body:["Treat the first answer as a draft. Ask for changes, shorter versions or different tones."]}]},
  {h2:"Keep a human in the loop",body:["Review every output before it is sent or published, and avoid pasting confidential data into tools your organisation has not approved. For tool ideas, see <a href='/articles/best-free-ai-tools-2026'>Best Free AI Tools in 2026</a>."]}]},
-...AI_ARTICLES,...AITOOLS_ARTICLES,...TECH_ARTICLES,...SOFTWARE_ARTICLES,...HOWTO_ARTICLES,...PRODUCTIVITY_ARTICLES,...ONLINE_ARTICLES
+...LATEST_ARTICLES,...AI_ARTICLES,...AITOOLS_ARTICLES,...TECH_ARTICLES,...SOFTWARE_ARTICLES,...HOWTO_ARTICLES,...PRODUCTIVITY_ARTICLES,...ONLINE_ARTICLES
 ];
 export const blocksOf=(b?:Block[]|null):Block[]=>Array.isArray(b)?b:[];
 export const wordCount=(a:Article)=>(a.sections||[]).flatMap(s=>[...blocksOf(s.body),...(s.h3||[]).flatMap(x=>blocksOf(x.body))]).map(b=>typeof b==="string"?b:(b.list||[]).join(" ")).join(" ").split(/\s+/).filter(Boolean).length;

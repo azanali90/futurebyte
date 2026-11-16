@@ -1,6 +1,6 @@
 import Link from "next/link";import Logo from "./Logo";import {CATEGORIES} from "@/lib/site";
 export default function Header(){return(
-<header className="sticky top-0 z-30 border-b border-slate-200 bg-white">
+<header className="site-header sticky top-0 z-30 border-b border-slate-200 bg-white">
 <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3">
 <Link href="/"><Logo/></Link>
 <nav aria-label="Main" className="hidden gap-5 text-sm lg:flex">{CATEGORIES.map(c=><Link key={c.slug} href={`/category/${c.slug}`} className="text-navy hover:text-sky">{c.name}</Link>)}</nav>
