@@ -7,14 +7,17 @@ export default function AdsterraBanner() {
     const container = document.getElementById("adsterra-banner");
     if (!container) return;
 
+    container.innerHTML = "";
+
     const optionsScript = document.createElement("script");
-    optionsScript.text = `
-      var atOptions = {
-        key: "7d67cbc469545448d8161991a17b2b88",
-        format: "iframe",
-        height: 60,
-        width: 468,
-        params: {}
+
+    optionsScript.innerHTML = `
+      atOptions = {
+        'key': '7d67cbc469545448d8161991a17b2b88',
+        'format': 'iframe',
+        'height': 60,
+        'width': 468,
+        'params': {}
       };
     `;
 
@@ -38,7 +41,10 @@ export default function AdsterraBanner() {
         width: "100%",
         maxWidth: "468px",
         minHeight: "60px",
-        margin: "24px auto",
+        margin: "20px auto",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
         overflow: "hidden",
       }}
     />
