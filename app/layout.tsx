@@ -1,5 +1,5 @@
-import AdsterraBanner from "@/components/AdsterraBanner";
 import "./globals.css";
+import Script from "next/script";
 import type { ReactNode } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -32,16 +32,21 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head>
-        <meta
-          name="monetag"
-          content="146f17e9452ced369423958f502dd012"
-        />
-      </head>
-
       <body>
+        <Script
+          id="monetag-multitag"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function(s){
+                s.dataset.zone='12333637';
+                s.src='https://nap5k.com/tag.min.js';
+              })(document.body.appendChild(document.createElement('script')));
+            `,
+          }}
+        />
+
         <Header />
-        <AdsterraBanner />
         <main>{children}</main>
         <Footer />
       </body>
