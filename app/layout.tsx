@@ -19,6 +19,8 @@ export const metadata = {
   },
   other: {
     "google-adsense-account": "ca-pub-1841843726454987",
+    "google-site-verification":
+      "7B_vYaTIdNTSwjuzgWovkM98DkKUeub9-FCVVtd5lmI",
   },
   alternates: {
     canonical: "/",
