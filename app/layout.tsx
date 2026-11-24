@@ -34,16 +34,10 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Script
-          id="monetag-multitag"
+          id="monetag-onclick"
           strategy="afterInteractive"
-          dangerouslySetInnerHTML={{
-            __html: `
-              (function(s){
-                s.dataset.zone='12333637';
-                s.src='https://nap5k.com/tag.min.js';
-              })(document.body.appendChild(document.createElement('script')));
-            `,
-          }}
+          src="https://al5sm.com/tag.min.js"
+          data-zone="12338656"
         />
 
         <Header />
