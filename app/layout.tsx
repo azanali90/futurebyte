@@ -35,16 +35,36 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+
+        {/* Ad Script 1 */}
         <Script
-          id="monetag-onclick"
-          strategy="afterInteractive"
+          id="ad-zone-12338656"
           src="https://al5sm.com/tag.min.js"
           data-zone="12338656"
+          strategy="afterInteractive"
+        />
+
+        {/* Ad Script 2 */}
+        <Script
+          id="ad-zone-314868"
+          src="https://quge5.com/88/tag.min.js"
+          data-zone="314868"
+          strategy="afterInteractive"
+          data-cfasync="false"
+        />
+
+        {/* Ad Script 3 */}
+        <Script
+          id="ad-zone-12333637"
+          src="https://nap5k.com/tag.min.js"
+          data-zone="12333637"
+          strategy="afterInteractive"
         />
 
         <Header />
         <main>{children}</main>
         <Footer />
+
       </body>
     </html>
   );
