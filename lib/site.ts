@@ -1,5 +1,5 @@
 export const SITE={name:"FutureByte",tagline:"Explore Technology. Discover Opportunities.",
-url:process.env.NEXT_PUBLIC_SITE_URL||"https://www.example.com",
+url:process.env.NEXT_PUBLIC_SITE_URL||"https://futurebyte.wasmer.app",
 description:"Guides, tool roundups and explainers on AI, software and digital productivity."};
 export const CATEGORIES=[
 {slug:"artificial-intelligence",name:"Artificial Intelligence",blurb:"How AI works and where it is heading."},
